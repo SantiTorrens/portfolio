@@ -1,6 +1,12 @@
 #hello {
-  margin-top: 60px;
+  margin-top: 0;
   border: none;
+}
+.hello-container {
+    border: 1px solid grey;
+    box-shadow: 1px 1px 3px gray;
+    padding: 2px;
+    height: auto;
 }
 
 .about-img-wrap {
@@ -40,9 +46,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.opacity-box {
-    opacity: 0.8;
-}
+
 
 p {
     display: block;

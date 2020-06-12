@@ -5,12 +5,12 @@ import './Header.css'
 class Header extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-        <a class="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <a className="navbar-brand" href="/">
           Santiago
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -18,44 +18,44 @@ class Header extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse nav__container" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Hello <span class="sr-only"></span>
+        <div className="collapse navbar-collapse nav__container" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Hello <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Habilidades <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Habilidades <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Experiencia <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Experiencia <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Educación <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Educación <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Portfolio <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Portfolio <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Feedback <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Feedback <span className="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Contacto <span class="sr-only"></span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Contacto <span className="sr-only"></span>
               </a>
             </li>
           </ul>

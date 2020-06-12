@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./Hello.css";
-import Perfil from "../../img/Perfil.jpg";
+import Perfil from "../../../img/Perfil.jpg";
 
 function Hello() {
   return (
     <section id="hello" className="section">
-      <div className="container ">
-        <div className="row:before">
+      <div className="container  hello-container">
+        <div className="row">
           <div className="col-md-6 about-img-wrap">
             <div className="about-img wow slideInRight">
               <img src={Perfil} alt="img" className="img-responsive"></img>

@@ -1,0 +1,9 @@
+.advantages-box {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-hr {
+    display: none;
+  }
+}

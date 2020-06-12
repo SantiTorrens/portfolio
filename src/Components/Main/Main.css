@@ -1,0 +1,21 @@
+.section {
+  padding: 40px 0;
+  border-top: 1px solid #e3e3e3;
+}
+.section-sidebar {
+  padding-bottom: 50px;
+  padding-right: 45px;
+}
+.section-sidebar h2 {
+  margin-bottom: 1px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.opacity-box {
+    opacity: 0.8;
+}

@@ -1,19 +1,45 @@
-import React from 'react';
+import React, { Component } from "react";
 
-import Header from '../Components/Header/Header';
+import Header from "../Components/Header/Header";
+import Main from "../Components/Main/Main";
 
-import './App.css';
-import Main from '../Components/Main/Main';
-// import Mobile from '../Components/Mobile/Mobile';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-        {/* <Mobile /> */}
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      color: false,
+    };
+  }
+  clickHandler = () => {
+    this.setState((prevState) => {
+      return { color: !prevState.color };
+    });
+  };
+  render() {
+    const classes = ["App"];
+    if (this.state.color) {
+      classes.push("App-Black");
+    }
+    return (
+      <div className={classes.join(" ")}>
+        <div className="btn-container">
+          <button
+            type="button"
+            className="color-btn"
+            onClick={this.clickHandler}
+          >
+            Color Mode
+          </button>
+        </div>
+
         <Header />
         <Main />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
